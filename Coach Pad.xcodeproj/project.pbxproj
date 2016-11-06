@@ -20,8 +20,6 @@
 		21A041001DA2D33500847E09 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A040FF1DA2D33500847E09 /* ThirdViewController.swift */; };
 		21A041021DA2D36A00847E09 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A041011DA2D36A00847E09 /* FourthViewController.swift */; };
 		21A041041DA2D38800847E09 /* FifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A041031DA2D38800847E09 /* FifthViewController.swift */; };
-		21A078011DB2492F0076B9D3 /* UserDefaultManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A078001DB2492F0076B9D3 /* UserDefaultManager.swift */; };
-		21DF2C1D1DA6C2FC00FC9DF0 /* democell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DF2C1C1DA6C2FC00FC9DF0 /* democell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,8 +38,6 @@
 		21A040FF1DA2D33500847E09 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		21A041011DA2D36A00847E09 /* FourthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
 		21A041031DA2D38800847E09 /* FifthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FifthViewController.swift; sourceTree = "<group>"; };
-		21A078001DB2492F0076B9D3 /* UserDefaultManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserDefaultManager.swift; path = ../UserDefaultManager.swift; sourceTree = "<group>"; };
-		21DF2C1C1DA6C2FC00FC9DF0 /* democell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = democell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,10 +114,8 @@
 				21A040EF1DA2BEDE00847E09 /* SecondViewController.swift */,
 				215B60F51DA59AA50061A56A /* AddTrainingViewController.swift */,
 				215B60F71DA59ADC0061A56A /* DetailTrainingViewController.swift */,
-				21DF2C1C1DA6C2FC00FC9DF0 /* democell.swift */,
 				210F8DD31DAA7D89004B3EEC /* Note.swift */,
 				210F8DD51DAA7E8C004B3EEC /* NoteManager.swift */,
-				21A078001DB2492F0076B9D3 /* UserDefaultManager.swift */,
 			);
 			name = Training;
 			sourceTree = "<group>";
@@ -161,7 +155,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = ArchieApps;
 				TargetAttributes = {
 					21A040E71DA2BEDD00847E09 = {
@@ -211,9 +205,7 @@
 				210F8DD41DAA7D89004B3EEC /* Note.swift in Sources */,
 				21A040F01DA2BEDE00847E09 /* SecondViewController.swift in Sources */,
 				21A040EC1DA2BEDE00847E09 /* AppDelegate.swift in Sources */,
-				21DF2C1D1DA6C2FC00FC9DF0 /* democell.swift in Sources */,
 				21A041001DA2D33500847E09 /* ThirdViewController.swift in Sources */,
-				21A078011DB2492F0076B9D3 /* UserDefaultManager.swift in Sources */,
 				21A040EE1DA2BEDE00847E09 /* FirstViewController.swift in Sources */,
 				210F8DD61DAA7E8C004B3EEC /* NoteManager.swift in Sources */,
 				215B60F61DA59AA50061A56A /* AddTrainingViewController.swift in Sources */,
@@ -262,6 +254,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -311,6 +304,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;

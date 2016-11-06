@@ -25,14 +25,8 @@ class DetailTrainingViewController: UIViewController {
         
     }
     //assing title of this view
-    override func viewDidAppear(_ animated: Bool) {
+    override func viewWillAppear(_ animated: Bool) {
         self.title = preNote?.title
         self.titleContent.text = preNote?.content
-        
-    }
-    
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        
     }
 }

@@ -15,19 +15,30 @@ class Note: NSObject, NSCoding {
     
     //object-assign a title,content
     //require some value for init, cant be nil
-    init (title:String, content:String){
+    init(title:String, content:String) {
         self.title = title
         self.content = content
     }
     
     //initializer that require no arguments, manager notes complain
-    override init(){
+    override init() {
         super.init()
+    }
+    
+    init?(dictionary: [String: String]) {
+        guard let title = dictionary["title"], let content = dictionary["content"] else { return nil }
+        self.title = title
+        self.content = content
+    }
+    
+    var toDictionary: [String: String] {
+        guard let title = self.title, let content = self.content else { return [:] }
+        return ["title": title, "content": content]
     }
     
     //note array and put that into USerDefaults
     //encode data, save it, when pull it out-decode it
-    required init(coder aDecoder: NSCoder){
+    required init(coder aDecoder: NSCoder) {
         if let titleDecoded = aDecoder.decodeObject(forKey: "title") as? String{
             title = titleDecoded
         }
@@ -35,6 +46,7 @@ class Note: NSObject, NSCoding {
             content = contentDecoded
         }
     }
+    
     func encode(with aCoder: NSCoder) {
         if let titleEncoded = title {
             aCoder.encode(titleEncoded, forKey: "title")
@@ -43,5 +55,6 @@ class Note: NSObject, NSCoding {
             aCoder.encode(contentEncoded, forKey: "content")
         }
     }
-        
 }
+
+

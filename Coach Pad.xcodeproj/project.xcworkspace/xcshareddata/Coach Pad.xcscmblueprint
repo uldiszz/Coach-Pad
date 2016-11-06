@@ -1,18 +1,20 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "4D40A3B63DC6AD1A4CA9CF18CD1F82C391FB7538+++0DE8DEC",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "4DC6FB87D05CAF31283ECB0E66685A4F76AA826B+++55EF988",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "4DC6FB87D05CAF31283ECB0E66685A4F76AA826B+++55EF988" : 9223372036854775807,
     "4D40A3B63DC6AD1A4CA9CF18CD1F82C391FB7538+++A9E5084" : 9223372036854775807,
-    "4D40A3B63DC6AD1A4CA9CF18CD1F82C391FB7538+++91A4A30" : 9223372036854775807,
-    "4D40A3B63DC6AD1A4CA9CF18CD1F82C391FB7538+++0DE8DEC" : 9223372036854775807
+    "4D40A3B63DC6AD1A4CA9CF18CD1F82C391FB7538+++0DE8DEC" : 9223372036854775807,
+    "4D40A3B63DC6AD1A4CA9CF18CD1F82C391FB7538+++91A4A30" : 9223372036854775807
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "B642983E-71D5-46FB-96EF-C3C639FE09AB",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "4DC6FB87D05CAF31283ECB0E66685A4F76AA826B+++55EF988" : "Coach-Pad\/",
     "4D40A3B63DC6AD1A4CA9CF18CD1F82C391FB7538+++A9E5084" : "..\/..\/..\/NCI\/Swift\/Basketball%20Coach%20Pad",
-    "4D40A3B63DC6AD1A4CA9CF18CD1F82C391FB7538+++91A4A30" : "..\/..\/..\/NCI\/Swift\/Basketball%20Coach%20Pad",
-    "4D40A3B63DC6AD1A4CA9CF18CD1F82C391FB7538+++0DE8DEC" : "Basketball%20Coach%20Pad\/"
+    "4D40A3B63DC6AD1A4CA9CF18CD1F82C391FB7538+++0DE8DEC" : "Basketball%20Coach%20Pad\/",
+    "4D40A3B63DC6AD1A4CA9CF18CD1F82C391FB7538+++91A4A30" : "..\/..\/..\/NCI\/Swift\/Basketball%20Coach%20Pad"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "Coach Pad",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
@@ -32,6 +34,11 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/archeym\/Basketball-Coach-Pad-version-2.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4D40A3B63DC6AD1A4CA9CF18CD1F82C391FB7538+++A9E5084"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/uldiszz\/Coach-Pad.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4DC6FB87D05CAF31283ECB0E66685A4F76AA826B+++55EF988"
     }
   ]
 }

@@ -27,10 +27,6 @@ class AddTrainingViewController: UIViewController {
         NotificationCenter.default.addObserver(self, selector: #selector(AddTrainingViewController.textContentDidChange), name: NSNotification.Name.UITextViewTextDidChange, object: nil)
         }
   
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        
-    }
     //hide the keyboard
     @IBAction func contentDoneButton(_ sender: AnyObject) {
         titleContent.resignFirstResponder()
@@ -66,11 +62,10 @@ class AddTrainingViewController: UIViewController {
     }
     
     @IBAction func addButton(_ sender: AnyObject) {
-        NoteManager.AddNotes(title: titleText.text!, content: titleContent.text)
+        NoteManager.sharedInstance.addNote(title: titleText.text!, content: titleContent.text)
         //clear after add
         titleText.text = ""
         titleContent.text = ""
-        UserDefaultManager.synchronize()
         
         // the alert view
         let alert = UIAlertController(title: "Saved to Training Plan", message: "Add More or Go to The Training Plan", preferredStyle: .alert)
@@ -84,7 +79,7 @@ class AddTrainingViewController: UIViewController {
         }
         //http://stackoverflow.com/questions/27613926/dismiss-uialertview-after-5-seconds-swift
 
-        var defaults = UserDefaults.standard
+        let defaults = UserDefaults.standard
         defaults.set("mystring", forKey: "myobject")
         
     }
