@@ -41,8 +41,7 @@ class NoteManager: NSObject {
         return Note()
     }
     
-    func updateNote(note: Note, title: String, content: String) {
-        note.title = title
+    func updateNote(note: Note, content: String) {
         note.content = content
         save()
     }
